@@ -1,5 +1,8 @@
-# KLessard
+# KLessard 
 
+Let's Eat application for CS499 <br>
+The user can add meal combinations to adult and kids meal databases <br>
+and view a data table of meals for each. 
 
 ### `npm start`
 
@@ -13,6 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it on the browser.
 - Run `npm install` to install required packages 
 
 ### Start Mongo
-- Open other terminal run `mongod`<br>
+- Open another terminal and run `mongod`<br>
 Open API URL on [http://localhost:4000/meals](http://localhost:4000/meals) <br>
 Open API URL on [http://localhost:4000/kids](http://localhost:4000/kids)
