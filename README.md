@@ -1,4 +1,4 @@
-# KLessard 
+# Let's Eat
 
 Let's Eat application for CS499 <br>
 The user can add meal combinations to adult and kids meal databases <br>
