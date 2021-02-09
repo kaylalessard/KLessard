@@ -12,5 +12,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it on the browser.
 
 ### Start Mongo
 - Open other terminal run `mongod`<br>
-Open API URL on [http://localhost:4000/meals](http://localhost:4000/meals)
+Open API URL on [http://localhost:4000/meals](http://localhost:4000/meals) <br>
 Open API URL on [http://localhost:4000/kids](http://localhost:4000/kids)
