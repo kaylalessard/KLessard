@@ -1,5 +1,6 @@
 # Let's Eat
-<iframe src="https://giphy.com/embed/H4bdybrsMlQyPy4BP7" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+![caption](https://gph.is/g/4oWGB00)
+
 
 Let's Eat application for CS499 <br>
 The user can add meal combinations to adult and kids meal databases <br>
