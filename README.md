@@ -1,5 +1,5 @@
 # Let's Eat
-![caption](https://gph.is/g/4oWGB00)
+![LetsEat](https://media.giphy.com/media/H4bdybrsMlQyPy4BP7/giphy.gif)
 
 
 Let's Eat application for CS499 <br>
