@@ -3,8 +3,9 @@
 
 
 Let's Eat application for CS499 <br>
-The user can add meal combinations to adult and kids meal databases <br>
-and view a data table of meals for each. 
+The user can check meal options that are stored in adult <br> 
+and kids meal databases (MongoDB).
+
 
 ### `npm start`
 
