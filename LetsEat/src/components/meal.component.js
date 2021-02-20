@@ -7,7 +7,14 @@ export default class Meal extends Component {
     constructor(props) {
         super(props);
         this.state = { mealCollection: [] };
+        this.handleClick = this.handleClick.bind(this);
+
     }
+    handleClick() {
+        this.setState(state => ({
+
+        }));
+      }
 
     componentDidMount() {
         axios.get('http://localhost:4000/meal')
@@ -19,22 +26,17 @@ export default class Meal extends Component {
             })
     }
 
-    dataTable() {
-        return this.state.mealCollection.map((data, i) => {
-            return <DataTable obj={data} key={i} />;
-        });
-    }
 
     render() {
+        const { mealCollection } = this.state;
+
         return (
+            
             <div className="text-center">
-                <div className="content">
-                    <table className="table">
-                        <tbody>
-                            {this.dataTable()}
-                        </tbody>
-                    </table>
-                </div>
+
+            {mealCollection.map(meal => 
+            <div>{meal.meal}</div>)}
+ 
             </div>
         )
     }
