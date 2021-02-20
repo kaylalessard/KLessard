@@ -32,19 +32,23 @@ code {
 
 .header {
   font-family: 'Matt Rostine';
+  font-size: 55px;
   font-style: normal;
   font-weight: normal;
-  font-size: 55px;
   text-align: center;
-  color:white;
+  color:rgb(121, 118, 118);
 }
-
+.content {
+  justify-content: center;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 .button {
   background-color: #000000; 
   border: none;
   border-radius: 10px;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 25px;
   justify-content: center;
   text-align: center;
   text-decoration: none;
@@ -62,11 +66,6 @@ code {
 }
 
 
-.navbar-brand,
-a:not([href]):not([tabindex]) {
-  color: white !important
-}
-
 .wrapper {
   max-width: 200px;
   margin: 50px auto;
@@ -74,4 +73,27 @@ a:not([href]):not([tabindex]) {
 
 .wrapper-meal {
   margin-top: 2px;
+}
+
+table {
+  margin: 10;
+  width: 100%;
+  height: 50px;
+  font-size: 10px;
+  justify-content: center;
+  padding: 4px;
+   
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
