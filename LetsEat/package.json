@@ -2,20 +2,29 @@
   "name": "react-axios-tutorial",
   "version": "0.1.0",
   "private": true,
+  "type" : "module",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
+    "mongoose": "^5.11.15",
+    "mongoose-random": "^0.1.1",
     "react": "^16.9.0",
+    "react-data-table-component": "^7.0.0-alpha-5",
     "react-dom": "^16.9.0",
+    "react-query": "^3.9.8",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "styled-components": "^5.2.1"
+    
   },
+  
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+    },
   "eslintConfig": {
     "extends": "react-app"
   },
