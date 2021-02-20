@@ -71,7 +71,7 @@ class Buttons extends React.Component {
         <div className="content">
               <div class="center">
           <button className="button" onClick={this.props.handleClick}>
-            Pick a New Random Meal
+            Randomize Meal
           </button>
           </div>
         </div> 
