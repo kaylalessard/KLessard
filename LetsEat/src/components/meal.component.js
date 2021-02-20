@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DataTable from './data-table';
 
 export default class Meal extends Component {
 
