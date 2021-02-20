@@ -1,10 +1,11 @@
 # Let's Eat
-![LetsEat](https://media.giphy.com/media/H4bdybrsMlQyPy4BP7/giphy.gif)
+![LetsEat](https://media.giphy.com/media/TqXW4GHEEnwBLkW8lI/giphy.gif)
 
 
 Let's Eat application for CS499 <br>
-The user can check meal options that are stored in adult <br> 
-and kids meal databases (MongoDB).
+The user selects whether they would like to pick a <br> 
+random meal from an adult or children's menu. <br>
+Menus are accessed from collections in a database (MongoDB).
 
 
 ### `npm start`
