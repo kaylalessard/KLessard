@@ -4,11 +4,12 @@ const Schema = mongoose.Schema;
 //kids meal collection from the dinner database; display meal item which is returned as a string
 let kidsSchema = new Schema({
     kids: {
-        type: String
+        text: String
     },
 
 }, {
         collection: 'kids'
     })
-
-module.exports = mongoose.model('kids', kidsSchema)
+    
+const kids = mongoose.model('kids', kidsSchema)
+module.exports = kids
