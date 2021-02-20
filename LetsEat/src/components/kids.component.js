@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DataTable from './data-table';
 
 export default class Kids extends Component {
 
@@ -19,23 +18,20 @@ export default class Kids extends Component {
             })
     }
 
-    dataTable() {
-        return this.state.kidsCollection.map((data, i) => {
-            return <DataTable obj={data} key={i} />;
-        });
-    }
 
     render() {
+        const { kidsCollection } = this.state;
+
         return (
+            
             <div className="text-center">
-                <div className="container">
-                    <table className="table">
-                        <tbody>
-                            {this.dataTable()}
-                        </tbody>
-                    </table>
-                </div>
+
+            {kidsCollection.map(meal =>
+            <div>{meal.meal}</div>)}
+ 
             </div>
         )
     }
+    
+
 }
