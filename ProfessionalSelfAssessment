@@ -1,0 +1,40 @@
+
+Completing my coursework throughout this academic program and developing this ePortfolio 
+has helped showcase my abilities in software engineering and design, data structures and 
+algorithms, and databases. Over time, I've realized that my professional goal is to be 
+a front-end software engineer and I believe that my academic pursuits have prepared me to 
+"go bravely" toward that goal.
+When I began this project, it was nothing more than a blank Python file in PyCharm which 
+evolved into a short program composed of an offensive amount of print-statements,
+relying entirely on user input (and subject to potential injection attacks). I decided 
+that what I wanted was an application that was simple and attractive, without the need 
+for user input. So while I utilized the vast wealth I've learned in this computer 
+science program, I also taught myself the MERN stack (which is MongoDB, Express, React, 
+and Node). Instead of choosing three artifacts that were almost totally completed by 
+someone else, I felt that it was important for me to produce one artifact that encompassed
+all three categories. In doing this, I demonstrated that I can take advantage of my current 
+knowledge while expanding upon it to meet user requirements. That I can see the potential
+for the enhancement of one program by utilizing software engineering and design, 
+algorithms and data structures, and databases. 
+In anticipating and utilizing feedback, I've demonstrated by ability to collaborate in 
+a team environment. I believe that if given the opportunity, I could be a valuable
+addition to a devlopment team where I would eagerly hope to learn more tech stacks
+while implementing best coding practices. 
+The purpose of my MERN-app (that I've very-cleverly titled "Let's Eat" is to produce a 
+randomly selected meal from two collections in a dinner database in MongoDB hosted locally. 
+Adults and children have different meal options (because heaven forbid we all eat the same 
+thing), so the first option is to select whether you’d like to eat from the adult or 
+children’s menu. Once selected, a meal will be randomly produced from the specifically 
+selected meal collection. You also have the ability to randomize the meal if you’d like 
+to try something else. 
+The engineering and design came together just as I hoped it would. Files are appropriately 
+organized in folders in the interest of organization and readability, variables are 
+appropriately explicit and clear, and comments are clear without being over-the-top, informing 
+the reader of the basic function for each file. Data structures and algorithms were essential 
+in ensuring that the randomizing aspect of my application came together seamlessly. Once I 
+converted by database objects to an array of strings, I was able to use Math.floor to produce 
+random items from the array. Using MongoDB was perfect because document data model is a powerful 
+way to efficiently store and retrieve data. The horizontal, scale-out architecture also supports 
+large volumes of data and traffic. I locally created and accessed my ‘dinner’ database with 
+contained two collections: ‘kids’ for the children’s menu, and ‘meal’ for the adult menu. 
+I used Axios to get the collection data because it performs automatic JSON data transformation.
