@@ -5,7 +5,8 @@
 Let's Eat application for CS499 <br>
 The user selects whether they would like to pick a <br> 
 random meal from an adult or children's menu. <br>
-Menus are accessed from collections in a database (MongoDB).
+<i>Menus are accessed from collections in a database (MongoDB).</i><br>
+The user has the option to randomize meals from within either collection.
 
 
 ### `npm start`
